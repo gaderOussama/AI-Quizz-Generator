@@ -9,7 +9,7 @@ import About from './pages/About.jsx';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />}>
+      <Route path="/AI-Quizz-Generator/" element={<Home />}>
         <Route index element={<Quiz />} />
         <Route path="about" element={<About />} />
       </Route>
