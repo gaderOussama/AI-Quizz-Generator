@@ -3,7 +3,7 @@ import Quizzer from "../assets/Quizzer.png"
 import { Link } from 'react-router-dom'
 const Sidebar = () => {
 
-    const elements=[{name:"Home", link:"/"}, {name:"About", link:"about"}];
+    const elements=[{name:"Home", link:"/AI-Quizz-Generator"}, {name:"About", link:"about"}];
   return (
     <div className='w-1/5 h-full bg-dark text-white justify-center items-center'>
         <div className='flex flex-col  h-full p-4'>
